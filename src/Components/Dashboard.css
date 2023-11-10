@@ -1,0 +1,121 @@
+
+.dash-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .logout {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+  
+  .logout button {
+    padding: 10px;
+    background-color:#29ad62; 
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+  
+
+  .scrolltable {
+    max-height: 300px; 
+    overflow-y: auto; 
+    margin: 20px 0;
+  }
+  
+  .scrolltable table {
+    width: 100%;
+    border-collapse: collapse;
+
+  }
+  
+  .scrolltable th {
+    background-color:#29ad62 ;
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+    
+  }
+  
+  .scrolltable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .scrolltable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .scrolltable input[type="text"] {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+  
+  .save {
+    margin: 10px 0;
+  }
+  
+  .save button {
+    padding: 10px;
+    background-color: #29ad62;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 90px;
+    margin-left: 300px;
+  }
+  
+
+  .cache {
+    margin: 20px 0;
+  }
+  
+  .cache h2 {
+    font-size: 18px;
+  }
+  
+  .cache input[type="text"] {
+    padding: 6px;
+    box-sizing: border-box;
+    width: 200px;
+  }
+.track{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.track button{
+
+    border-radius: 10px;
+    padding: 10px;
+    background-color:#29ad62; 
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+  
+
+  

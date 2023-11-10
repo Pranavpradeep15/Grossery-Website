@@ -1,0 +1,84 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .cover-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  h1{
+    margin-left: 25px;
+  }
+  
+  .cover-area {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .userpass {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 280px; 
+    background-color: #fff;
+  }
+  
+  .user-input input {
+    border: 1px solid #070404;
+    width: 280px;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .user-action {
+    text-align: center;
+  }
+  
+  .cover-button {
+    background-color: #29ad62;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 0; 
+    border-radius: 5px;
+    width: 280px; 
+    transition: background-color 0.3s;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+  }
+  
+  .user-input input:focus {
+    outline: none;
+    border-color: #29ad62;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  .cover-button:hover {
+    background-color: #29ad62;
+  }
+  
